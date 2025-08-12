@@ -1,0 +1,24 @@
+# Node modules for both backend and frontend
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variable files
+backend/.env
+frontend/.env
+
+# Frontend specific build artifacts
+frontend/build/
+frontend/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS and Editor Specific Files
+.DS_Store
+*.orig
+.idea/ # For WebStorm/IntelliJ users
+.vscode/ # For VS Code users (optional, if you want to ignore editor settings)
